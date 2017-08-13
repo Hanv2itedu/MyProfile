@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat-Regular', sans-serif;
+    text-rendering: optimizeLegibility;
+    transition: all 0.3s ease 0.0s;
+
+}
