@@ -4,28 +4,64 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
         <title>Nguyen Van Ha</title>
-        <link rel="stylesheet" type="text/css" href=""/>        
+        <link rel="stylesheet" type="text/css" href="cv.css"/>
     </head>
     <body>
-        <header>
+        <header class="container">
             <h1>My Profile</h1>
-            <img src="img/me.jpg" alt="my profile">
+            <img src="img/me.jpg" alt="my profile" style="width: 80px; height: 80px; border-radius: 50% ">
             <div class="info">
                 <h4>Nguyen Van Ha</h4>
                 <h4>Age: 21</h4>
                 <h4>Danang University of Technology</h4>
             </div>
         </header>
-        <section>
+        <section class="container">
             <div class="sec" id="experience">
                 <h1>My Experience :</h1>
-                <div class="list_exp">
-                    <div class="line_of_exp">
-                        <h6>2015-present: </h6>
-                        <p> Learning at Danang University of Technology</p>
-                    </div>
-                </div>
+                <ul class="list-experience">
+                    <li>English</li>
+                    <li>HTML</li>
+                    <li>Java</li>
+                </ul>
             </div>
+            <div class="sec" id="experience2">
+                <h1>My Experience :</h1>
+                <ul class="list-experience" type="square">
+                    <li>English</li>
+                    <li>HTML</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div class="sec" id="experience3">
+                <h1>My Experience :</h1>
+                <ol class="list-experience">
+                    <li>English</li>
+                    <li>HTML</li>
+                    <li>Java</li>
+                </ol>
+            </div>
+            <div class="graduate-processing">
+                <h1>Graduate Processing</h1>
+                <table>
+                    <tr>
+                        <th> Năm </th>
+                        <th> Tên Trường </th>
+                        <th> Thành Phố</th>
+                    </tr>
+                    <tr>
+                        <td>1990</td>
+                        <td>A</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>2000</td>
+                        <td>C</td>
+                        <td>D</td>
+                    </tr>
+                </table>
+            </div>
+            <button type="submit" value="Apply"> Apply</button>
         </section>
     </body>
 </html>
